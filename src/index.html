@@ -78,11 +78,14 @@
             I can create modern, sleek and responsive HTML and <br />
             CSS Web Templates using Tailwind CSS, with an eye of perfection!
           </p>
-          <div class="flex flex-col md:mt-4 md:flex-row md:space-x-5">
+          <div
+            class="flex flex-col items-center md:mt-4 md:flex-row md:space-x-5"
+          >
             <button
               class="
                 bg-[#7BBBCE]
                 text-white
+                hover:scale-105
                 mt-3
                 font-bold
                 w-44
@@ -92,7 +95,19 @@
             >
               See my Work
             </button>
-            <button class="text-[#7BBBCE] mt-4 font-semibold text-lg">
+            <button
+              class="
+                text-[#7BBBCE]
+                hover:scale-105 hover:border hover:border-[#7BBBCE]
+                mt-4
+                w-44
+                h-12
+                rounded-3xl
+                font-semibold
+                text-lg
+                bg-gray-100
+              "
+            >
               Contact Me
             </button>
           </div>
@@ -189,9 +204,7 @@
         <!-- Featur sec 1 -->
         <div class="items-center md:items-start">
           <div class="flex flex-col items-center">
-            <h3 class="my-10 text-lg md:font-extralight md:text-xl">
-              Feature works
-            </h3>
+            <h3 class="my-10 font-extralight text-3xl">Feature works</h3>
           </div>
 
           <div class="flex flex-col md:flex-row">
@@ -323,6 +336,8 @@
         </div>
         <!-- End Featur sec 3 -->
       </div>
+
+      <hr />
 
       <!-- End Feature work Sections -->
       <div class="flex space-x-3 justify-center mt-10">
