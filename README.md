@@ -1,17 +1,13 @@
-# Starter template for Tailwind with Vanilla HTML
+# Hi there 👋, Nice to see you 🌱
 
-[See it Live](https://awaisaasi.github.io/portfolio-site/)
+I'm Awais Aasi, web developer and designer from Pakistan. Enthusiastic to learn new things in my free time. I use HTML, CSS with TailwindCSS to develop some awesome websites which is responsive and aligned perfectly for accessible on modern devices, with up to date trend and semantics
 
-## Getting Started
+## Some of my work to showcase:
 
-- `npx degit mrhammadasif/tailwind-vite FOLDER_NAME`
-- `cd FOLDER_NAME`
-- `pnpm i`
+- Nitroxis [view website](https://nitroxis.com)
 
-## Run your Server
+## Hobby Projects (All of these designs remade in TailwindCSS):
 
-- `pnpm dev`
-
-## Deploy to gh-pages
-
-- `pnpm deploy`
+- Youtube Clone [view website](https://awaisaasi.github.io/youtube)
+- Linkedin Clone [view website](https://awaisaasi.github.io/linkedin)
+- TailwindCSS Clone [view website](https://awaisaasi.github.io/tailwind)
