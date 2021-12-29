@@ -6,17 +6,5 @@
 @tailwind utilities;
 
 .app-section {
-  @apply max-w-4xl mx-auto px-4;
-}
-
-.app-badge {
-  @apply mx-2 my-2 rounded-full bg-gray-700;
-}
-
-.app-feature-thumb {
-  @apply w-full;
-}
-
-.app-feature-thumb img {
-  @apply h-64 w-full object-cover md:h-48 md:rounded-xl;
+  @apply max-w-7xl mx-auto px-4;
 }
