@@ -4,21 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="./nitroxis.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>portfolio</title>
     <script type="module" crossorigin src="./assets/index.42fe4937.js"></script>
-    <link rel="stylesheet" href="./assets/index.5e67815c.css">
+    <link rel="stylesheet" href="./assets/index.d318df5a.css">
   </head>
 
   <body>
     <!-- body -->
     <div class="flex flex-col my-20">
+      <!-- Name section -->
       <div
         class="
-          justify-center
           flex flex-col
-          md:gap-10
-          app-section
-          md:flex-row md:flex-row-reverse
+          justify-between
+          md:gap-10 md:flex-row md:flex-row-reverse
+          max-w-[1500px]
+          mx-auto
         "
       >
         <div class="items-center md:w-1/2 lg:1/2 md:relative">
@@ -47,7 +48,7 @@
           ></div>
           <img
             class="md:w-[325px] md:h-[325px] object-cover md:rounded-full"
-            src="https://pyxis.nymag.com/v1/imgs/4e5/1f7/a917c50e70a4c16bc35b9f0d8ce0352635-14-tom-cruise.rsquare.w700.jpg"
+            src="https://scontent.flhe7-1.fna.fbcdn.net/v/t1.18169-9/17190439_1182077025223828_8145535654814983441_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_eui2=AeG86wlXVoaWlbqfwgj5S0nDmLG3wCqTNxeYsbfAKpM3F9i2JlhLtoplBn59m3k9Iko87Pi5GBUtW69sAEW-YTa8&_nc_ohc=0paEZUK9JTcAX9LJqq2&_nc_ht=scontent.flhe7-1.fna&oh=00_AT8PW__gXed48hcnMXSKRwwqfSWdsQ19dDBFc-cXBtqGBg&oe=61EB22BC"
             alt=""
           />
           <div
@@ -80,11 +81,14 @@
             I can create modern, sleek and responsive HTML and <br />
             CSS Web Templates using Tailwind CSS, with an eye of perfection!
           </p>
-          <div class="flex flex-col md:mt-4 md:flex-row md:space-x-5">
+          <div
+            class="flex flex-col items-center md:mt-4 md:flex-row md:space-x-5"
+          >
             <button
               class="
                 bg-[#7BBBCE]
                 text-white
+                hover:scale-105
                 mt-3
                 font-bold
                 w-44
@@ -94,21 +98,34 @@
             >
               See my Work
             </button>
-            <button class="text-[#7BBBCE] mt-4 font-semibold text-lg">
-              Contact Me
+            <button
+              class="
+                text-[#7BBBCE]
+                hover:scale-105 hover:border hover:border-[#7BBBCE]
+                mt-4
+                w-44
+                h-12
+                rounded-3xl
+                font-semibold
+                text-lg
+                hover:bg-gray-100
+              "
+            >
+              Contact Me 2
             </button>
           </div>
         </div>
       </div>
+      <!--End Name section -->
 
       <!-- Features Section -->
       <div class="mt-4 bg-[#EDF7FA] md:mt-20">
-        <div class="flex flex-col max-w-4xl mx-auto">
+        <div class="flex flex-col max-w-6xl mx-auto">
           <h3 class="leading-8 text-2xl my-5 md:pt-4 font-semibold text-center">
             Features of my Designed Web Templates
           </h3>
 
-          <div class="flex flex-col md:flex-row">
+          <div class="flex flex-col md:flex-row mt-6">
             <!-- Feature Sec 1 -->
             <div
               class="
@@ -119,19 +136,30 @@
                 rounded-lg
                 bg-white
                 mx-12
+                px-2
+                hover:scale-105
               "
             >
               <img
-                class="w-40 h-40 -mt-10"
+                class="w-40 h-36 -mt-14"
                 src="./assets/feature-img 4.146eb610.png"
                 alt=""
               />
               <h2 class="text-[#48B0F5] mt-5 text-2xl font-bold">
                 Modernistic
               </h2>
-              <p class="font-extralight mb-5 text-base text-black text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia
-                eos, sapiente odit tempore temporibus quae!
+              <p
+                class="
+                  font-extralight
+                  mb-5
+                  text-base
+                  hover:bg-gray-100
+                  py-1
+                  text-black text-center
+                "
+              >
+                Modern web development is measured, separated, and fully
+                stacked. It is a skill that simplifies the most complex tasks.
               </p>
             </div>
 
@@ -145,17 +173,28 @@
                 rounded-lg
                 bg-white
                 mx-12
+                px-2
+                hover:scale-105
               "
             >
               <img
-                class="w-40 h-40 -mt-10"
+                class="w-40 h-36 -mt-14"
                 src="data:image/png;base64,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"
                 alt=""
               />
               <h2 class="text-[#48B0F5] mt-5 text-2xl font-bold">Responsive</h2>
-              <p class="font-extralight mb-5 text-base text-black text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia
-                eos, sapiente odit tempore temporibus quae!
+              <p
+                class="
+                  font-extralight
+                  mb-5
+                  text-base text-black
+                  hover:bg-gray-100
+                  py-1
+                  text-center
+                "
+              >
+                Responsive websites built for an optimal user experience that
+                achieves your business goals.
               </p>
             </div>
 
@@ -169,15 +208,26 @@
                 rounded-lg
                 bg-white
                 mx-12
+                px-2
+                hover:scale-105
               "
             >
-              <img class="w-40 h-40 -mt-10" src="./assets/Icons.75b9e4da.png" alt="" />
+              <img class="w-40 h-36 -mt-14" src="./assets/Icons.75b9e4da.png" alt="" />
               <h2 class="text-[#48B0F5] mt-5 text-2xl font-bold">
                 Modern and Fast
               </h2>
-              <p class="font-extralight mb-5 text-base text-black text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia
-                eos, sapiente odit tempore temporibus quae!
+              <p
+                class="
+                  font-extralight
+                  mb-5
+                  text-base text-black
+                  hover:bg-gray-100
+                  py-1
+                  text-center
+                "
+              >
+                For Modern & fast websites developers need to use languages,
+                frameworks, and tech trends in accordance with general trends.
               </p>
             </div>
           </div>
@@ -187,20 +237,36 @@
 
       <!-- Feature work Sections -->
 
-      <div class="flex flex-col max-w-4xl mx-auto">
+      <div class="flex flex-col max-w-6xl mx-auto">
         <!-- Featur sec 1 -->
-        <div class="items-center md:items-start">
-          <div class="flex flex-col items-center">
-            <h3 class="my-10 text-lg md:font-extralight md:text-xl">
+        <div class="md:px-2">
+          <div class="flex flex-col items-center mb-6">
+            <h3
+              class="
+                my-10
+                font-extralight
+                text-4xl
+                border
+                border-b-[#48B0F5]
+                border-t-transparent
+                border-l-transparent
+                border-r-transparent
+                text-[#48B0F5]
+              "
+            >
               Feature works
             </h3>
           </div>
 
-          <div class="flex flex-col md:flex-row">
-            <div class="app-feature-thumb">
-              <img src="./assets/Rectangle 30.3fb11d2f.png" alt="" />
+          <div class="flex flex-col md:flex-row space-x-8">
+            <div class="border border-gray-500 rounded-sm">
+              <img
+                class="lg:w-[500px]"
+                src="https://cdn.pixabay.com/photo/2021/12/09/20/58/christmas-cookies-6859116__340.jpg"
+                alt=""
+              />
             </div>
-            <div class="flex flex-col mx-5 mt-4">
+            <div class="flex flex-col mx-2 mt-4 max-w-sm">
               <h1
                 class="
                   text-xl
@@ -210,7 +276,7 @@
                   justify-start
                 "
               >
-                Designing Dashboard
+                Crypterio Site
               </h1>
               <div class="flex mt-5">
                 <h5
@@ -223,108 +289,29 @@
                     rounded-xl
                   "
                 >
-                  2020
+                  2021
                 </h5>
-                <h5 class="mx-5 opacity-60">Dashboard</h5>
+                <h5 class="mx-5 opacity-60">Crypterio Site</h5>
               </div>
               <p class="my-5 md:font-extralight">
-                Amet consectetur adipisicing Lorem ipsum dolor sit elit.
-                Eligendi ipsum nisi nihil quam labore officiis, hyperlink
-                opacity and fake id quaerat header tiles fearless veritatis?
+                This is cryptocurrency site having many sections of dynamically
+                and responsive.
               </p>
-              <hr class="opacity-10 mt-5" />
             </div>
           </div>
         </div>
-
         <!-- End Featur sec 1 -->
 
         <!-- Featur sec 2 -->
-        <div class="flex flex-col md:flex-row mt-12">
-          <div class="app-feature-thumb">
-            <img src="./assets/Rectangle 30 (1).2963996c.png" alt="" />
-          </div>
-          <div class="flex flex-col mx-5 mt-1">
-            <h1
-              class="
-                text-xl
-                md:text-3xl
-                font-semibold
-                md:font-bold
-                justify-start
-                mt-2
-              "
-            >
-              Vibraant Portraits of 2018
-            </h1>
-            <div class="flex mt-5">
-              <h5
-                class="
-                  bg-gray-900
-                  text-white
-                  font-bold
-                  opacity-90
-                  px-3
-                  rounded-xl
-                "
-              >
-                2018
-              </h5>
-              <h5 class="mx-5 opacity-60">Illustration</h5>
-            </div>
-            <p class="font-extralight my-5">
-              Amet consectetur adipisicing Lorem ipsum dolor sit elit. Eligendi
-              ipsum nisi nihil quam labore officiis, hyperlink opacity and fake
-              id quaerat header tiles fearless veritatis?
-            </p>
-            <hr class="opacity-10 mt-50" />
-          </div>
-        </div>
+
         <!-- End Featur sec 2 -->
 
         <!-- Featur sec 3 -->
-        <div class="flex flex-col md:flex-row items-center mt-12">
-          <div class="app-feature-thumb">
-            <img src="./assets/unsplash_D5nh6mCW52c.c8765212.png" alt="" />
-          </div>
-          <div class="flex flex-col mx-5 mt-1">
-            <h1
-              class="
-                text-2xl
-                md:text-3xl
-                font-semibold
-                md:font-bold
-                justify-start
-                mt-5
-              "
-            >
-              36 Days od Malayalam Type
-            </h1>
-            <div class="flex mt-5">
-              <h5
-                class="
-                  bg-gray-900
-                  opacity-90
-                  text-white
-                  font-bold
-                  px-3
-                  rounded-xl
-                "
-              >
-                2018
-              </h5>
-              <h5 class="mx-5 opacity-60">Typography</h5>
-            </div>
-            <p class="font-extralight my-5">
-              Amet consectetur adipisicing Lorem ipsum dolor sit elit. Eligendi
-              ipsum nisi nihil quam labore officiis, hyperlink opacity and fake
-              id quaerat header tiles fearless veritatis?
-            </p>
-            <hr class="opacity-10 my-5" />
-          </div>
-        </div>
+
         <!-- End Featur sec 3 -->
       </div>
+
+      <hr class="my-6" />
 
       <!-- End Feature work Sections -->
       <div class="flex space-x-3 justify-center mt-10">
